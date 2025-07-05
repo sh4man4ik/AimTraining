@@ -1,0 +1,26 @@
+:root {
+	/*colors*/
+	--color-black: #000000;
+	--color-dark-blue: #0b192c;
+	--color-blue: #1e3e62;
+	--color-orange: #ff6500;
+}
+
+body {
+	background-color: var(--color-dark-blue);
+	margin: 0;
+	padding: 0;
+	font-family: 'Space Grotesk', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	color: snow;
+}
+
+#isPhoneText {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-wrap: pretty;
+	font-weight: bold;
+}
